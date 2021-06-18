@@ -67,7 +67,7 @@ def main():
         subfig.add_traces(fig.data + fig2.data)
         subfig.layout.xaxis.title="Date"
         subfig.update_yaxes(title_text="<b>Heng Seng Index</b>", secondary_y=False)
-        subfig.update_yaxes(title_text="<b>Net Ssouthbound Mean</b> (HK$ million)", secondary_y=True)
+        subfig.update_yaxes(title_text="<b>Net Southbound Mean</b><br>(HK$ million)", secondary_y=True)
         
         subfig.update_xaxes(
             rangeslider_visible=True,
